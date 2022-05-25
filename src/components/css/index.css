@@ -5,8 +5,6 @@ body{
 }
 
 
-
-
 .container{
     color: #f0ffff;
 }
@@ -31,7 +29,7 @@ img
 }
 
 a{
-    color: rgb(70, 39, 14);
+    color: rgb(50, 92, 98);
     text-decoration: none;
 }
 
@@ -381,7 +379,10 @@ margin: 0px;
     width: 45%;
 }
 
-
+.bg-t {
+    --bs-bg-opacity: 1;
+    background-color:#66a5ad;
+}
 
 
 /*Переделки*/
@@ -393,11 +394,33 @@ margin: 0px;
     font-family: Helvetica;
     justify-content: center;
 }
+.btn-primary:focus {
+    color: #fff;
+    background-color: #66a4ac;
+    border-color: #ffffff;
+    box-shadow: 0 0 0 0.25rem rgb(102, 164, 172);
+
+}
 
 .btn-primary, btn
 {
+
+
+    transition: all 0.3s;
     background: #66A5AD;
     border-color: #66a4ac;
+}
+.btn-primary:hover
+{
+
+    background: #9abdc0;
+    border-color: #9abdc0;
+}
+.btn:hover
+{
+
+    background: #9abdc0;
+    border-color: #9abdc0;
 }
 
 .button7 {
@@ -406,9 +429,9 @@ margin: 0px;
     text-decoration: none;
     padding: .8em 1em calc(.8em + 3px);
     border-radius: 8px;
-    background: rgb(47, 96, 104);
     box-shadow: 0 -3px rgb(35, 34, 34) inset;
     transition: 0.2s;
+    background: #488088;
 }
 .button7:hover { background: rgb(131, 131, 131); }
 .button7:active {
@@ -969,12 +992,3 @@ flex-direction: column;
     }
 }
 
-.page-link {
-    position: relative;
-    display: block;
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #2f5f68;
-    border: 1px solid #dee2e6;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}

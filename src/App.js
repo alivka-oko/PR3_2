@@ -1,12 +1,9 @@
 import React from 'react';
 import {Routes, Route} from "react-router-dom";
-import Footer from "./components/Footer";
 import Pet from "./components/html/pet.jsx";
-import Header from "./components/header.jsx";
 import Index from "./components/html/index.jsx";
 import Orders from "./components/html/orders";
 import Auth from "./components/html/auth";
-
 import Search from "./components/html/search"
 import Registration from "./components/html/registration";
 import Profile from "./components/html/profile";
@@ -29,6 +26,8 @@ function App() {
               <Route path={'/registration'} element={<Registration/>}/>
               <Route path={'/search'} element={<Search/>}/>
           </Routes>
+
+
 
   );
 }

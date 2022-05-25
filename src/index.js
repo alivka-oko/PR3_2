@@ -8,8 +8,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './components/css/index.css';
 import Header from "./components/header.jsx";
 import Footer from "./components/Footer";
-
-
+import './components/css/style.css'
+import Orders from "./components/html/orders";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

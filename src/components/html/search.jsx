@@ -11,7 +11,7 @@ const Search = () => {
                 </div>
 
     <div class="p-3">
-        <form class="w-50 m-auto border p-3" style={{"min-width":" 300px"}}>
+        <form class="w-50 m-auto border p-3 bg-t" style={{"min-width":" 300px"}}>
 
             <div class="mb-3">
                 <label for="district" class="form-label">Выберите район:</label>
@@ -35,6 +35,7 @@ const Search = () => {
             <input type="submit" class="btn btn-primary"/>
         </form>
     </div>
+
 </main>
 
     );
